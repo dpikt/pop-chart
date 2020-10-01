@@ -1,0 +1,8 @@
+{
+  "name": "pop-chart",
+  "version": "1.0.0",
+  "label": "View total population in the game summary",
+  "url": "",
+  "description": "View total population in the game summary",
+  "dependencies": ["0ad=0.0.23"]
+}

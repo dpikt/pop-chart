@@ -1,8 +1,8 @@
 {
   "name": "pop-chart",
   "version": "1.0.0",
-  "label": "View total population in the game summary",
-  "url": "",
-  "description": "View total population in the game summary",
+  "label": "View total population in game summary",
+  "url": "https://github.com/dpikt/pop-chart",
+  "description": "View total population in game summary",
   "dependencies": ["0ad=0.0.23"]
 }

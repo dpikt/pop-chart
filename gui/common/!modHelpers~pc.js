@@ -1,3 +1,4 @@
+// Helper for patching an existing function defined in the global scope
 function __patch(funcName, replacementFunc) {
   const originalFunc = global[funcName].bind(global)
   if (!originalFunc)
@@ -9,6 +10,7 @@ function __patch(funcName, replacementFunc) {
   }
 }
 
+// Helper for patching an existing function defined in the global scope
 function __overwrite(funcName, replacementFunc) {
   const originalFunc = global[funcName].bind(global)
   if (!originalFunc)
@@ -18,6 +20,7 @@ function __overwrite(funcName, replacementFunc) {
   global[funcName] = replacementFunc
 }
 
+// "Modularize" the helpers.
 const ModHelpers = {
   patch: __patch,
   overwrite: __overwrite,

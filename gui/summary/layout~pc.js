@@ -1,3 +1,6 @@
+// The original function returns a big object of headers and counter functions for the summary view.
+// This patch modifies that config object by overwriting the headers for buildings and units.
+
 ModHelpers.patch('getScorePanelsData', (getScorePanelsData) => {
   const data = getScorePanelsData()
   data.units.titleHeadings[0].caption = sprintf(

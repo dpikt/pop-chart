@@ -34,4 +34,4 @@ Then enable the mod from the Mod Selection screen in 0 A.D.
 
 ## Credits
 
-Thanks to fpre and badosu for the `fgod` and `balanced-maps` mods respectively - those examples were extremely helpful when getting started.
+Thanks to fpre and badosu for the `fgod` and `balanced-maps` mods respectively - those examples were extremely helpful for getting started.

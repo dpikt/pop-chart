@@ -4,9 +4,17 @@ Population chart mod for 0 A.D. https://play0ad.com/
 
 ![Population chart example](chart.jpg)
 
-## Install (manual)
+## How To Install
 
 Download zip: https://github.com/dpikt/pop-chart/archive/master.zip
+
+### Automatic install
+
+Right click zip file > click open with 0 A.D.
+
+More info: https://trac.wildfiregames.com/wiki/Modding_Guide#Howtoinstallmods
+
+### Manual install
 
 Unzip and copy the resulting folder into the 0ad mods directory.
 
@@ -14,7 +22,7 @@ Unzip and copy the resulting folder into the 0ad mods directory.
 - Windows: `~\Documents\My Games\0ad\mods\`
 - Mac: `~/Library/Application\ Support/0ad/mods/`
 
-More info here: https://trac.wildfiregames.com/wiki/GameDataPaths
+More info: https://trac.wildfiregames.com/wiki/Modding_Guide#Wherearethemods
 
 Then enable the mod from the Mod Selection screen in 0 A.D.
 

@@ -31,7 +31,7 @@ Then enable the mod from the Mod Selection screen in 0 A.D.
 - Calculation: This mod naively calculates total population by subtracting units killed from units trained, plus the initial starting units. This is adequate for most cases but will be inaccurate in the following ways: 
   - Maps/modes with non-standard starts (like Empire) will be slightly off
   - Civs with non-standard starting units (Mauryans and Britons) will be slightly off
-  - Dogs wil be counted in population
+  - Dogs will be counted in population
   - Heroes, seige, and any other units that take >1 population space will be counted as taking 1 population space
   - Units deleted by a player will not be counted against population
 

@@ -20,8 +20,14 @@ function __overwrite(funcName, replacementFunc) {
   global[funcName] = replacementFunc
 }
 
+// Helper - remove mod with a given name from a list of mods
+function __removeModFromModList(modList, mod) {
+  return modList.filter(([modName, modVersion]) => modName !== mod)
+}
+
 // "Modularize" the helpers.
 const ModHelpers = {
   patch: __patch,
   overwrite: __overwrite,
+  removeModFromModList: __removeModFromModList,
 }
